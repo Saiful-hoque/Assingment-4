@@ -35,7 +35,7 @@ function calculateCount(){
 calculateCount();
 
 
-// calculateCount();
+
  
 
 
@@ -160,9 +160,8 @@ mainContainer.addEventListener('click', function(event){
 
 
 //Add div to filter section 
-//
+
 function renderInterview(){
-    //every time the filter section will empty first
     filterSection.innerHTML = '';
     if(interviewList.length == 0){
             emptySection.classList.remove('hidden')
@@ -225,7 +224,6 @@ function renderInterview(){
 
 
 function renderRejected(){
-    //every time the filter section will empty first
     filterSection.innerHTML = '';
       if(rejectList.length == 0){
             emptySection.classList.remove('hidden')
